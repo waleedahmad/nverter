@@ -22,7 +22,7 @@
   },
   "scripts": {
     "dev-server": "nodemon server.js --config nodemon.json ",
-    "watch": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",

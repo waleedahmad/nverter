@@ -1,0 +1,21 @@
+.encodes{
+  width: 500px;
+  margin: 50px auto;
+
+  h2{
+    text-align:center;
+  }
+
+  .encode{
+    border-bottom: 1px solid grey;
+    padding: 10px;
+    word-wrap: break-word;
+
+    .download{
+      float :right;
+    }
+  }
+  .message{
+    text-align:center;
+  }
+}

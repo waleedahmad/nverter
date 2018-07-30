@@ -1,0 +1,11 @@
+{
+  "legacyWatch": true,
+  "ignore": [
+    "node_modules",
+    "public",
+    "src",
+    "uploads",
+    "views",
+    "webpack.config.js"
+  ]
+}

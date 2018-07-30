@@ -1,0 +1,42 @@
+{
+  "name": "nverter",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.18.0",
+    "config": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "handbrake-js": "^3.0.6",
+    "js-cookie": "^2.2.0",
+    "mini.css": "^3.0.0",
+    "multer": "^1.3.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "1.1.4",
+    "socket.io": "^2.1.1",
+    "toastr": "^2.1.4",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "dev-server": "nodemon server.js --config nodemon.json ",
+    "watch": "webpack --config webpack.config.js",
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
+    "mini-css-extract-plugin": "^0.4.1",
+    "node-sass": "^4.9.2",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "url-loader": "^1.0.1",
+    "webpack": "^4.16.1",
+    "webpack-cli": "^3.1.0"
+  }
+}

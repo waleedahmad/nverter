@@ -1,0 +1,18 @@
+.App-header {
+    text-align: center;
+
+    .button{
+        position: absolute;
+        right : 10px;
+    }
+}
+
+.App-logo{
+    height: 35px;
+}
+
+header .App-logo,
+header h2{
+    vertical-align:middle;
+    display: inline-block;
+}

@@ -1,0 +1,20 @@
+.uploader{
+  margin-top: 100px;
+  .form-control-file{
+    display: none;
+  }
+
+  button, select{
+    width: 200px;
+    text-align: center;
+    text-align-last: center;
+  }
+
+  select{
+    margin-top: 20px;
+  }
+
+  .progress-container{
+    text-align:center;
+  }
+}

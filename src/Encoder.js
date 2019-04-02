@@ -11,16 +11,16 @@ export default class Encoder extends Component {
     constructor(props){
         super(props);
         this.state = {
-            file : props.file,
-            encoded_file : '',
-            convert_ext : props.convert_ext,
-            progress : 0,
-            eta : '',
+            file: props.file,
+            encoded_file: '',
+            convert_ext: props.convert_ext,
+            progress: 0,
+            eta: '',
         }
     }
 
     componentDidMount(){
-        this.socket = socketIOClient('ws://127.0.0.1:3000');
+        this.socket = socketIOClient('ws://127.0.0.1:'+location.port);
 
         this.socket.emit('encode', {
             file : this.state.file,

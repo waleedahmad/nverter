@@ -28,6 +28,9 @@ $ nano config/default.json
 # Building frontend code
 $ npm run watch
 
-$ Running Web Server
+# Running dev server to watch code with nodemon
 $ npm run dev-server
+
+# Running server
+$ npm run start
 ```

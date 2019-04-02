@@ -21,8 +21,9 @@
     "uuid": "^3.3.2"
   },
   "scripts": {
-    "dev-server": "nodemon server.js --config nodemon.json ",
-    "watch": "webpack --config webpack.config.js"
+    "start" : "node server.js",
+    "dev-server": "node_modules/.bin/nodemon server.js --config nodemon.json ",
+    "watch": "node_modules/.bin/webpack --config webpack.config.js"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
